@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Worker_A</RootNamespace>
+    <AssemblyName>WorkerA</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\worker-modules\Worker-Modules.csproj" />
+  </ItemGroup>
+
+</Project>
